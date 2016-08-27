@@ -18,7 +18,7 @@
       "value": "dMN5E3kDrHyQT1M8k7Rb0iHDEFZuSW5Xj37DZu6t"
     },
     "SERVER_URL": {
-      "description": "http://smallbusinessios.herokuapp.com/parse",
+      "description": "http://iossmallbusiness.herokuapp.com/parse",
       "value": "http://smallbusinessios.herokuapp.com/parse"
     }
   },
