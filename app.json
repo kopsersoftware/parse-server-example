@@ -1,7 +1,7 @@
 {
   "name": "Parse Server Example",
   "description": "An example Parse API server using the parse-server module",
-  "repository": "https://github.com/ParsePlatform/parse-server-example",
+  "repository": "https://github.com/kopsersoftware/parse-server-example",
   "logo": "https://avatars0.githubusercontent.com/u/1294580?v=3&s=200",
   "keywords": ["node", "express", "parse"],
   "env": {
@@ -11,11 +11,15 @@
     },
     "APP_ID": {
       "description": "A unique identifier for your app.",
-      "value": "myAppId"
+      "value": "M0f58usNxNWHrnE0pUhhkFecO6uWEnnApZTXUrmQ"
     },
     "MASTER_KEY": {
       "description": "A key that overrides all permissions. Keep this secret.",
-      "value": "myMasterKey"
+      "value": "dMN5E3kDrHyQT1M8k7Rb0iHDEFZuSW5Xj37DZu6t"
+    },
+    "SERVER_URL": {
+      "description": "http://smallbusinessios.herokuapp.com/parse",
+      "required": true
     }
   },
   "image": "heroku/nodejs",
