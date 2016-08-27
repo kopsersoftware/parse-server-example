@@ -3,10 +3,6 @@ Parse.Cloud.define('hello', function(req, res) {
   res.success('Hi');
 });
 
-Parse.Cloud.define('hello', function(req, res) {
-  res.success('Hi');
-});
-
 Parse.Cloud.define('sendPushToCustomers', function(request, response){
 
 	var objectId = request.params.objectID;
