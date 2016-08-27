@@ -19,8 +19,7 @@
     },
     "SERVER_URL": {
       "description": "http://smallbusinessios.herokuapp.com/parse",
-      "value": "http://smallbusinessios.herokuapp.com/parse",
-      "required": true
+      "value": "http://smallbusinessios.herokuapp.com/parse"
     }
   },
   "image": "heroku/nodejs",
