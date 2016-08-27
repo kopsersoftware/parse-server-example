@@ -15,10 +15,8 @@ var api = new ParseServer({
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || 'M0f58usNxNWHrnE0pUhhkFecO6uWEnnApZTXUrmQ',
   masterKey: process.env.MASTER_KEY || 'dMN5E3kDrHyQT1M8k7Rb0iHDEFZuSW5Xj37DZu6t',
-  serverURL:{
-    process.env.SERVER_URL || 'http://smallbusinessios.herokuapp.com/parse',
-    "required": true
-  } 
+  serverURL: process.env.SERVER_URL || 'http://smallbusinessios.herokuapp.com/parse',
+
 });
 
 // Client-keys like the javascript key or the .NET key are not necessary with parse-server
