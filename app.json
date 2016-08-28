@@ -19,7 +19,7 @@
     },
     "SERVER_URL": {
       "description": "http://iossmallbusiness.herokuapp.com/parse",
-      "value": "http://iossmallbusiness.herokuapp.com/parse"
+      "value": "http://smallbusinessios.herokuapp.com/parse"
     }
   },
   "image": "heroku/nodejs",
