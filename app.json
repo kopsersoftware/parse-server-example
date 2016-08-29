@@ -9,6 +9,9 @@
       "description": "Configure Parse API route.",
       "value": "/parse"
     },
+    "DATABASE_URI": {
+      "value": "mongodb://heroku_cm184hv4:5f2alq5494sh8rn6m919dk68n6@ds021701.mlab.com:21701/heroku_cm184hv4"
+    }
     "APP_ID": {
       "description": "A unique identifier for your app.",
       "value": "M0f58usNxNWHrnE0pUhhkFecO6uWEnnApZTXUrmQ"
